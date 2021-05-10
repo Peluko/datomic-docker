@@ -1,6 +1,6 @@
 # Datomic Starter Dev
 
-Datomic binaries can't be redistributed, so you can't get a public Docker image for Datomic. The solution is to build your own private image providing the Datomic binaries you've downloaded ater registering on Datomic.
+Datomic binaries can't be redistributed, so you can't get a public Docker image for Datomic. The solution is to build your own private image providing the Datomic binaries you've downloaded after registering on Datomic.
 
 This image runs a Datomic transactor and a peer for development purposes. It also runs Datomic Console.
 

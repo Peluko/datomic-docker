@@ -1,0 +1,2 @@
+# Here must be the non-redistributable datomic zip
+*.zip

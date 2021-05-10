@@ -26,7 +26,7 @@ done < "/config/dbs-list"
 # Use Datomic REPL to create databases
 /datomic-bin/datomic-pro/bin/repl <<EOF
 (require '[datomic.api :as d])
-(map d/create-database '($DBSURIS_FOR_CREATE))
+(dorun (map d/create-database '($DBSURIS_FOR_CREATE)))
 EOF
 
 echo Starting Datomic console on port 8080

@@ -46,7 +46,7 @@ Use ```ctrl-d``` to exit.
 For deleting a database you can start a REPL and do
 ```clojure
 (require '[datomic.api :as d])
-(d/delete-databse "datomic:dev://localhost:4334/DATABASE")
+(d/delete-database "datomic:dev://localhost:4334/DATABASE")
 ```
 
 Remember to delete the database line from ```/config/dbs-list```. If not it will be recreated on next startup.
